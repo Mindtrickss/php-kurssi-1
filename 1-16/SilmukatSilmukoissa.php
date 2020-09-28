@@ -10,4 +10,3 @@ $lastNames = [
     'Esimerkkinen',
     'Testinen'
 ];
-
