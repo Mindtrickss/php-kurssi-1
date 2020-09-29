@@ -19,14 +19,13 @@ function generateNames(int $count, string $prefix = "") : array
         $last = $lastNames[rand(0, count($lastNames)-1)];
 
         $result[] = $prefix . "  " . $first . " " . $last;
-        //$result[] = sprintf("%s %s %s", $prefix, $first, $last);
+
     }
 
     return $result;
 }
 echo "<pre>";
-print_r(generateNames(3, "Hr."));
-print_r(generateNames(8, "Nti."));
+print_r(generateNames(11, "Opiskelija"));
 echo "</pre>";
 
-//print_r();
+
